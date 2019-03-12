@@ -1,0 +1,32 @@
+<div>
+  <h2>Registration Form</h2>
+</div>
+
+
+
+<form [formGroup]="employeeForm">
+  <div class="form-group">
+    <label>First Name:</label>
+    <input class="form-control" formControlName="firstName"><br>
+    <label>Lastname:</label>
+    <input class="form-control" formControlName="lastName"><br>
+    <label>Email:</label>
+    <input class="form-control" formControlName="email"><br>
+    <label>PhoneNo</label>
+    <input class="form-control" formControlName="phoneNo"><br>
+    <label>Line1:</label>
+    <input class="form-control" formControlname="line1"><br>
+    <label>Line2:</label>
+    <input class="form-control" formControlname="line2"><br>
+    <label>Pincode:</label>
+    <input class="form-control" formControlname="pincode"><br>
+    <label>District:</label>
+    <input class="form-control" formControlname="district"><br>
+    <label>State:</label>
+    <input class="form-control" formControlname="state"><br>
+    <button type="button" onclick="alert('Hello world!')">Register</button>
+  </div>
+
+
+
+</form>
